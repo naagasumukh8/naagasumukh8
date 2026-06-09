@@ -1,121 +1,93 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering student specializing in full-stack engineering, secure system architectures, and workflow automation. My research and development efforts focus on designing proprietary systems, database security architectures, and automated artificial intelligence workflows.
+Information Science and Engineering student at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru. I focus on machine learning development, data analysis, and automated workflows. My work involves designing classification models, natural language processing pipelines, and data-driven systems.
 
-As the Founder and Head of Team Adwaitha, I direct development teams, design system architectures, and coordinate research for technical projects.
-
----
-
-## Developer Notice: Contribution Activity
-
-Because my primary engineering work involves proprietary systems and intellectual property currently undergoing patent evaluation, my source repositories are set to private. 
-
-To view my active development cadence, please ensure that you have enabled **Show private contributions** in your GitHub settings. This will display my daily commit history and development velocity.
+As the Founder and Event Lead of the Adwaitha Club at NMIT, I build community initiatives, organize tech events, and coordinate outreach opportunities.
 
 ---
 
-## Technical Stack & Competencies
+## Technical Skills & Tooling
 
 ### Languages & Core Engineering
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
-### Frameworks & Libraries
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=tanstack&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+### Data & Analytics Libraries
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
-### Data Systems & Infrastructure
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-
----
-
-## Architecture Design: Full-Stack Secure Operating System
-
-Below is the design pattern implemented for MediConnect, representing a secure, role-based database architecture and AI-assisted triage pipeline.
-
-```mermaid
-graph TD
-    subgraph Client Tier [Client Tier - React & TypeScript]
-        PatientClient[Patient Dashboard]
-        DoctorClient[Doctor Dashboard]
-        AdminClient[Admin Portal]
-    end
-
-    subgraph Security Layer [Security & Access Control]
-        Auth[Supabase Auth / JWT]
-        RLS[Row Level Security / RLS Policies]
-    end
-
-    subgraph Application Server [Application Server - TanStack Start SSR]
-        ServerFuncs[Server Functions & API Handlers]
-        SentryLogs[Sentry Error Tracking]
-    end
-
-    subgraph Data & Integration Services [Data & Integrations]
-        Postgres[(Supabase PostgreSQL)]
-        Storage[Supabase Object Storage]
-        GroqAPI[Groq API - Llama 3.3 Triage]
-        Automation[n8n Webhook Queues]
-    end
-
-    PatientClient --> Auth
-    DoctorClient --> Auth
-    AdminClient --> Auth
-    
-    Auth --> RLS
-    RLS --> ServerFuncs
-    ServerFuncs --> SentryLogs
-    
-    ServerFuncs --> Postgres
-    ServerFuncs --> Storage
-    ServerFuncs --> GroqAPI
-    ServerFuncs --> Automation
-```
+### Artificial Intelligence & Workflows
+* Generative AI API Integration & Prompt Engineering
+* Workflow automation & AI-assisted productivity systems
+* Exploratory Data Analysis (EDA) & Data Visualization
+* Graphic Design (Canva) and Video Editing workflows
 
 ---
 
-## Research & Intellectual Property Focus
+## Core Projects
 
-### Healthcare System Workflow Automation
-* Focus: Optimizing patient scheduling loops, preventing reservation race conditions, and executing secure, role-based digital consultations.
-* Application: MediConnect Care Systems.
+### Automated Fake Job Advertisement Detection
+A machine learning fraud detection system designed to classify and identify fraudulent job postings.
+* Methodologies: Natural Language Processing (NLP) text preprocessing, tokenization, and vectorization
+* Machine Learning: Binary classification models evaluated on accuracy, precision, recall, and F1-score
+* Focus: Minimizing recruitment fraud and protecting job seekers
 
-### Credential Integrity Verification
-* Focus: Design of tamper-proof verification pipelines for career credentials and employment records.
-* Application: Job Verify Framework.
+### AI Interview Monitoring System
+An automated pipeline facilitating secure and assisted interview workflows.
+* Core: Audio recording capturing and speech-to-text transcript generation
+* Monitoring: Integration of plagiarism detection indicators and screening aids
+* Tech Stack: Python, Web APIs
 
-### System Safety and Sanitization
-* Focus: Prevention of injection attacks in conversational AI systems and securing server-side endpoints from telemetry leaks.
-* Application: AI Triage Integrations.
+### Resume-Based Interview Question Generator
+An automated recruiting assessment tool designed to parse applicant profiles.
+* Function: Ingests resumes and generates targeted interview screening questions
+* Mechanism: Custom prompting systems and LLM integration to evaluate skill sets dynamically
 
----
-
-## Engineering Standards
-
-| Standard | Implementation | Outcome |
-| --- | --- | --- |
-| Type Safety | Strict TypeScript compilation and database schemas. | Eliminate runtime model mismatches. |
-| Data Isolation | Row Level Security (RLS) checked via Supabase tokens. | Strict tenant and user data privacy. |
-| Diagnostics | SSR-safe telemetry capturing and Sentry logging. | Real-time production issue tracking. |
-| Asynchronous Execution | Create-before-cancel order scheduling patterns. | Avoid server-side race conditions. |
-
----
-
-## Education
-* B.E. in Information Science and Engineering (ISE)
-* Nitte Meenakshi Institute of Technology (NMIT), Bangalore
-* Research Focus: Applied Machine Learning, Secure Software Architecture, Distributed Database Systems
+### Zomato Review Sentiment Analysis
+An analytics workflow examining customer review trends.
+* Core: Exploratory data analysis, text cleaning, stopword removal, and sentiment classification
+* Tech Stack: Python, Pandas, Matplotlib
 
 ---
 
-## Professional Networks
+## Professional & Internship Experience
+
+### Digital Marketing Intern | LinkedInforHER
+* Content creation and digital brand optimization.
+* Integrated AI-assisted marketing workflows to streamline content delivery.
+* Examined audience interaction data to optimize engagement structures.
+
+---
+
+## Leadership & Community
+
+### Founder & Event Lead | Adwaitha Club, NMIT
+* Established student-focused club initiatives and drove community outreach.
+* Managed end-to-end event execution, team schedules, and logistics.
+* Coordinated collaboration and welfare activities across NMIT student cohorts.
+
+### Technology Content Creator
+* Educate a community of over 3,000 LinkedIn followers on AI tools, technology adoption, and career productivity.
+* Conduct tech workshops and support student collaboration initiatives.
+
+### Community Collaborations
+* Coordinating student engagement and workshop support in partnership with Rabbitt AI.
+
+---
+
+## Academic Profile
+* Institution: Nitte Meenakshi Institute of Technology (NMIT), Bengaluru
+* Degree: Bachelor of Engineering (B.E.) in Information Science and Engineering
+* CGPA: 7.95 (Graduation Year: 2027)
+* Pre-University: 95%
+* CBSE Class X: 91.2%
+
+---
+
+## Contact & Connect
 * LinkedIn: [linkedin.com/in/naagasumukh](https://linkedin.com/in/naagasumukh)
 * GitHub: [github.com/naagasumukh8](https://github.com/naagasumukh8)
 * Email: [1nt23is136.naaga@nmit.ac.in](mailto:1nt23is136.naaga@nmit.ac.in)
