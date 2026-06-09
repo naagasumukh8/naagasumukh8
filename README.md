@@ -1,6 +1,6 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I focus on machine learning model development, natural language processing pipelines, data analytics, and browser-extension automated workflows.
+Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I specialize in machine learning model development, natural language processing pipelines, data analytics, and browser-extension automated workflows.
 
 As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, manage end-to-end event execution, and organize welfare and technology outreach programs.
 
@@ -10,6 +10,8 @@ As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, mana
 
 ### Languages & Core Engineering
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
@@ -23,24 +25,32 @@ As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, mana
 * Generative AI workflow design & prompt engineering
 * Workflow automation & AI-assisted productivity systems
 * Exploratory Data Analysis (EDA) & Data Visualization
-* Browser Extension Development (Chrome and Meet audio-capture extensions)
+* Browser Extension Development (Chrome Extension APIs & Google Meet integration)
 
 ---
 
 ## Core Projects
+
+### MediConnect — Healthcare Operating System (HealthcareOS)
+A full-stack Healthcare Operating System (HealthcareOS) designed to streamline healthcare delivery for hospitals, clinics, medical groups, doctors, and patients. It goes beyond traditional appointment booking by enabling end-to-end continuity of care.
+* Features: Supports multi-hospital management, role-based access for patients, doctors, hospital administrators, and super admins, secure appointment scheduling with doctor approval workflows, digital prescriptions, patient health records, inter-department referrals, pharmacy inventory management, and AI-assisted patient support.
+* Advanced Capabilities: Post-consultation care workflows, automated follow-up management, patient timelines, shared medical memory for doctors, family account management, Google Calendar-based availability planning, event-driven automation architecture, and secure file storage for prescriptions and medical reports.
+* Security & Quality: Production-ready security enforced through Supabase Row Level Security (RLS), comprehensive testing with Playwright, TypeScript validation, and role-based authorization, creating a scalable platform that reduces administrative workload and enhances long-term healthcare outcomes.
+* Repository: [mediconnect-care](https://github.com/naagasumukh8/mediconnect-care) (Private repository / Local workspace development)
+
+### Sacchi AI — Interview Integrity & AI-Assistance Detection Platform
+An AI-powered platform to detect unauthorized AI assistance during online interviews through real-time and post-session analysis. Designed to help organizations conduct fair, transparent, and merit-based hiring while reducing AI-assisted interview malpractice.
+* Browser Extension: Monitors behavioral signals, response patterns, speech characteristics, clipboard activity, tab switching, and content similarity to evaluate candidate authenticity.
+* Machine Learning: Implemented a custom ensemble machine learning model trained on human and AI-generated conversations for classification and risk scoring.
+* Reporting: Generates detailed recruiter-facing reports with genuineness scores, suspicious activity indicators, plagiarism analysis, and interview insights.
+* Tech Stack: JavaScript, TypeScript, React, Chrome Extension APIs, Python, Scikit-learn, Machine Learning, Node.js, REST APIs.
+* Repository: [audio-transcription-plagiarism-checker](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker) (Private repository for patent evaluation)
 
 ### Automated Fake Job Advertisement Detection (Final Year Project)
 A machine learning fraud detection system designed to classify and identify fraudulent job postings.
 * Methodologies: Natural Language Processing (NLP) text preprocessing, tokenization, and vectorization
 * Machine Learning: Binary classification models evaluated on accuracy, precision, recall, and F1-score
 * Repository: [Job_Verify_FYP](https://github.com/naagasumukh8/Job_Verify_FYP)
-
-### SachhAI — Interview Authenticity Platform & Extensions
-An end-to-end technical interview authenticity verification platform that detects whether candidate verbal responses are assisted or AI-generated.
-* Core: FastAPI backend comparing 11 distinct style dimensions (Flesch-Kincaid, formality, hedging, burstiness, passive voice, fillers) between natural baseline and technical answers.
-* Machine Learning: RandomForest and GradientBoosting classifier trained on the Human vs. ChatGPT Comparison Corpus (HC3) to predict AI content probability.
-* Extensions: Chrome Extension and Google Meet Extension built to capture WebRTC tab audio, route it to Deepgram Nova-2 transcribers, and inject in-page scoring panels.
-* Repository: [audio-transcription-plagiarism-checker](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker) (Private repository for patent evaluation)
 
 ---
 
