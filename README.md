@@ -1,8 +1,8 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering student at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru. I focus on machine learning development, data analysis, and secure workflow automation. My work involves designing classification models, natural language processing pipelines, and data-driven systems.
+Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I specialize in machine learning model development, natural language processing pipelines, data analytics, and generative AI workflow automation.
 
-As the Founder and Event Lead of the Adwaitha Club at NMIT, I build community initiatives, organize tech events, and coordinate outreach opportunities.
+As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, manage end-to-end event execution, and organize welfare and technology outreach programs.
 
 ---
 
@@ -13,23 +13,23 @@ As the Founder and Event Lead of the Adwaitha Club at NMIT, I build community in
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
-### Data & Analytics Libraries
+### Data Analytics & Visualisation
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
-### Artificial Intelligence & Workflows
-* Generative AI API Integration & Prompt Engineering
+### Artificial Intelligence & Automation
+* Generative AI workflow design & prompt engineering
 * Workflow automation & AI-assisted productivity systems
 * Exploratory Data Analysis (EDA) & Data Visualization
-* Graphic Design (Canva) and Video Editing workflows
+* Graphic Design (Canva) & Video Editing pipelines
 
 ---
 
 ## Core Projects
 
-### Automated Fake Job Advertisement Detection (Final Year Project)
+### Automated Fake Job Advertisement Detection
 A machine learning fraud detection system designed to classify and identify fraudulent job postings.
 * Methodologies: Natural Language Processing (NLP) text preprocessing, tokenization, and vectorization
 * Machine Learning: Binary classification models evaluated on accuracy, precision, recall, and F1-score
@@ -40,6 +40,16 @@ An automated pipeline facilitating secure and assisted interview workflows.
 * Core: Audio recording capturing and speech-to-text transcript generation
 * Monitoring: Integration of plagiarism detection indicators and screening aids
 * Tech Stack: Python, Web APIs
+
+### Resume-Based Interview Question Generator
+An automated candidate screening assistant that parses applicant profiles and generates customized interview questions.
+* Function: Ingests resumes and generates targeted screening questions
+* Mechanism: Custom prompting systems and LLM integration to evaluate skills dynamically
+
+### Zomato Review Sentiment Analysis
+An analytics workflow examining customer review trends.
+* Core: Exploratory data analysis, text cleaning, stopword removal, and sentiment classification
+* Tech Stack: Python, Pandas, Matplotlib
 
 ---
 
@@ -54,7 +64,7 @@ An automated pipeline facilitating secure and assisted interview workflows.
 
 ## Leadership & Community
 
-### Founder & Event Lead | Adwaitha Club, NMIT
+### Founder & Head | Adwaitha Club, NMIT
 * Established student-focused club initiatives and drove community outreach.
 * Managed end-to-end event execution, team schedules, and logistics.
 * Coordinated collaboration and welfare activities across NMIT student cohorts.
@@ -78,6 +88,6 @@ An automated pipeline facilitating secure and assisted interview workflows.
 ---
 
 ## Contact & Connect
-* LinkedIn: [linkedin.com/in/naagasumukh](https://linkedin.com/in/naagasumukh)
+* LinkedIn: [linkedin.com/in/naaga-sumukh-bs](https://www.linkedin.com/in/naaga-sumukh-bs)
 * GitHub: [github.com/naagasumukh8](https://github.com/naagasumukh8)
 * Email: [1nt23is136.naaga@nmit.ac.in](mailto:1nt23is136.naaga@nmit.ac.in)
