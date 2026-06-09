@@ -1,6 +1,6 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I specialize in machine learning model development, natural language processing pipelines, data analytics, and generative AI workflow automation.
+Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I focus on machine learning model development, natural language processing pipelines, data analytics, and browser-extension automated workflows.
 
 As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, manage end-to-end event execution, and organize welfare and technology outreach programs.
 
@@ -23,33 +23,24 @@ As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, mana
 * Generative AI workflow design & prompt engineering
 * Workflow automation & AI-assisted productivity systems
 * Exploratory Data Analysis (EDA) & Data Visualization
-* Graphic Design (Canva) & Video Editing pipelines
+* Browser Extension Development (Chrome and Meet audio-capture extensions)
 
 ---
 
 ## Core Projects
 
-### Automated Fake Job Advertisement Detection
+### Automated Fake Job Advertisement Detection (Final Year Project)
 A machine learning fraud detection system designed to classify and identify fraudulent job postings.
 * Methodologies: Natural Language Processing (NLP) text preprocessing, tokenization, and vectorization
 * Machine Learning: Binary classification models evaluated on accuracy, precision, recall, and F1-score
 * Repository: [Job_Verify_FYP](https://github.com/naagasumukh8/Job_Verify_FYP)
 
-### AI Interview Monitoring System
-An automated pipeline facilitating secure and assisted interview workflows.
-* Core: Audio recording capturing and speech-to-text transcript generation
-* Monitoring: Integration of plagiarism detection indicators and screening aids
-* Tech Stack: Python, Web APIs
-
-### Resume-Based Interview Question Generator
-An automated candidate screening assistant that parses applicant profiles and generates customized interview questions.
-* Function: Ingests resumes and generates targeted screening questions
-* Mechanism: Custom prompting systems and LLM integration to evaluate skills dynamically
-
-### Zomato Review Sentiment Analysis
-An analytics workflow examining customer review trends.
-* Core: Exploratory data analysis, text cleaning, stopword removal, and sentiment classification
-* Tech Stack: Python, Pandas, Matplotlib
+### SachhAI — Interview Authenticity Platform & Extensions
+An end-to-end technical interview authenticity verification platform that detects whether candidate verbal responses are assisted or AI-generated.
+* Core: FastAPI backend comparing 11 distinct style dimensions (Flesch-Kincaid, formality, hedging, burstiness, passive voice, fillers) between natural baseline and technical answers.
+* Machine Learning: RandomForest and GradientBoosting classifier trained on the Human vs. ChatGPT Comparison Corpus (HC3) to predict AI content probability.
+* Extensions: Chrome Extension and Google Meet Extension built to capture WebRTC tab audio, route it to Deepgram Nova-2 transcribers, and inject in-page scoring panels.
+* Repository: [audio-transcription-plagiarism-checker](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker) (Private repository for patent evaluation)
 
 ---
 

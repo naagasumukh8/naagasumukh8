@@ -27,7 +27,7 @@ This report presents a thorough audit of your GitHub presence and provides brand
 "Information Science & Engineering Student at NMIT Bangalore | Founder & Event Lead, Adwaitha Club | Python, SQL, & Machine Learning Builder"
 
 ### Professional Tagline
-"Bridging data analytics, machine learning classification workflows, and automated system pipelines to solve operational challenges."
+"Bridging data analytics, machine learning classification workflows, and automated browser-extension systems to solve operational challenges."
 
 ---
 
@@ -51,25 +51,23 @@ This report presents a thorough audit of your GitHub presence and provides brand
 * Badge Recommendation: Add Shields.io build status and license badges.
 * Documentation Recommendation: Incorporate data structure schemas and verifier role guidelines.
 
-#### Hospital Management System with AI
-* Description Improvement: "An intelligent hospital operations platform integrating database management and AI scheduling features."
-* Topics/Tags: `react`, `typescript`, `supabase`, `postgres`, `ai-triage`, `hospital-management`.
-* Badge Recommendation: Add Shields.io database status and library version badges.
-* Documentation Recommendation: Provide instructions for initializing Supabase tables and local seed files.
+#### SachhAI (audio-transcription-plagiarism-checker)
+* Description Improvement: "Interview authenticity platform checking 11 stylistic dimensions and ML probability. Includes Chrome and Google Meet extensions."
+* Topics/Tags: `fastapi`, `python`, `sklearn`, `chrome-extension`, `speech-to-text`, `plagiarism-detection`.
+* Badge Recommendation: Add Shields.io FastAPI status and python version badges.
+* Documentation Recommendation: Detailed manifest config for Chrome extensions and local FastAPI uvicorn start scripts.
 
 ---
 
 ## 4. Portfolio Optimization Strategy
 
 ### Repositories to Pin
-1. **Automated_Fake_Job_Advertisement_Detection**: Showcases your Final Year Project (ML/NLP classification).
-2. **AI_Interview_Monitoring_System**: Showcases speech-to-text integration and fraud detection.
-3. **Resume_Based_Interview_Question_Generator**: Highlights custom prompting logic and recruitment workflow automations.
-4. **Zomato_Review_Sentiment_Analysis**: Highlights exploratory data analysis (EDA), NLTK text processing, and data visualizations.
+1. **Automated_Fake_Job_Advertisement_Detection** (Job_Verify_FYP): Showcases your Final Year Project (ML/NLP classification).
+2. **audio-transcription-plagiarism-checker** (SachhAI): Showcases your speech-to-text integration, Sklearn model, and browser/Google Meet extensions.
 
 ### Repositories to Improve
 * **Job_Verify_FYP**: Keep it clean and structured. Add database validation rules and server startup guides.
-* **Hospital_Management_System_With_AI**: If kept public, add database schemas and API descriptions.
+* **audio-transcription-plagiarism-checker**: Keep backend files structured and ensure environmental key setups are documented clearly.
 
 ### Repositories to Archive or Make Private
 * Change visibility to **Private** or **Delete** the following repositories if they contain no active code: `demo`, `project-1`, `sample`. A cluttered public profile dilutes recruiter attention.
@@ -102,7 +100,7 @@ This report presents a thorough audit of your GitHub presence and provides brand
 
 ## 6. Scorecard
 
-* Technical Skills: 72 / 100 (Strong Python, SQL, and NLP concepts; needs more visible code scripts).
+* Technical Skills: 75 / 100 (Strong Python, SQL, and NLP concepts; needs more visible code scripts).
 * Professional Branding: 78 / 100 (Strong due to Adwaitha Club leadership and 3,000+ LinkedIn followers).
 * Leadership: 85 / 100 (Highly rated as Founder and Lead of Adwaitha Club, managing operations and teams).
 * Portfolio Quality: 70 / 100 (Good project themes; needs documentation to be pushed to GitHub).
@@ -120,16 +118,16 @@ This report presents a thorough audit of your GitHub presence and provides brand
 3. Update your public LinkedIn URL link on your profile.
 
 ### 1-Hour Action Plan
-1. copy the contents of `Automated_Fake_Job_Advertisement_Detection_README.md` and save it to your `Job_Verify_FYP` repository as `README.md`.
-2. Add description, tags, and topics for `Job_Verify_FYP` and `Hospital_Management_System_With_AI` on the GitHub website interface.
+1. Copy the contents of `Job_Verify_FYP_README.md` and save it to your `Job_Verify_FYP` repository as `README.md`.
+2. Add description, tags, and topics for `Job_Verify_FYP` on the GitHub website interface.
 
 ### 1-Day Action Plan
 1. Change visibility to **Private** or **Delete** the following repositories if they contain no active code: `demo`, `project-1`, `sample`.
 2. Double check that your LinkedIn link on your profile README is functional and matches your actual profile URL.
 
 ### 1-Week Action Plan
-1. Initialize repositories for the other core projects (`AI_Interview_Monitoring_System`, `Resume_Based_Interview_Question_Generator`, and `Zomato_Review_Sentiment_Analysis`).
-2. Push the respective project README files to these newly created repositories.
+1. Copy the contents of `SachhAI_README.md` and commit it as `README.md` in your `audio-transcription-plagiarism-checker` repository.
+2. Push changes to keep it updated.
 
 ### 30-Day Transformation Roadmap
 * **Days 1-10**: Clean up the public profile. Complete all repository README uploads and set up project tags and licenses.
