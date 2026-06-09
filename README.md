@@ -1,6 +1,6 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering student at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru. I focus on machine learning development, data analysis, and automated workflows. My work involves designing classification models, natural language processing pipelines, and data-driven systems.
+Information Science and Engineering student at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru. I focus on machine learning development, data analysis, and secure workflow automation. My work involves designing classification models, natural language processing pipelines, and data-driven systems.
 
 As the Founder and Event Lead of the Adwaitha Club at NMIT, I build community initiatives, organize tech events, and coordinate outreach opportunities.
 
@@ -29,27 +29,17 @@ As the Founder and Event Lead of the Adwaitha Club at NMIT, I build community in
 
 ## Core Projects
 
-### Automated Fake Job Advertisement Detection
+### Automated Fake Job Advertisement Detection (Final Year Project)
 A machine learning fraud detection system designed to classify and identify fraudulent job postings.
 * Methodologies: Natural Language Processing (NLP) text preprocessing, tokenization, and vectorization
 * Machine Learning: Binary classification models evaluated on accuracy, precision, recall, and F1-score
-* Focus: Minimizing recruitment fraud and protecting job seekers
+* Repository: [Job_Verify_FYP](https://github.com/naagasumukh8/Job_Verify_FYP)
 
 ### AI Interview Monitoring System
 An automated pipeline facilitating secure and assisted interview workflows.
 * Core: Audio recording capturing and speech-to-text transcript generation
 * Monitoring: Integration of plagiarism detection indicators and screening aids
 * Tech Stack: Python, Web APIs
-
-### Resume-Based Interview Question Generator
-An automated recruiting assessment tool designed to parse applicant profiles.
-* Function: Ingests resumes and generates targeted interview screening questions
-* Mechanism: Custom prompting systems and LLM integration to evaluate skill sets dynamically
-
-### Zomato Review Sentiment Analysis
-An analytics workflow examining customer review trends.
-* Core: Exploratory data analysis, text cleaning, stopword removal, and sentiment classification
-* Tech Stack: Python, Pandas, Matplotlib
 
 ---
 
