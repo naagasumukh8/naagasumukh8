@@ -1,82 +1,121 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering student focused on full-stack development, artificial intelligence integrations, and system automation. I specialize in building web applications with React, TypeScript, and Supabase, and designing automated data pipelines.
+Information Science and Engineering student specializing in full-stack engineering, secure system architectures, and workflow automation. My research and development efforts focus on designing proprietary systems, database security architectures, and automated artificial intelligence workflows.
 
-As the Founder and Head of Team Adwaitha, I lead developer initiatives, coordinate academic projects, and manage team operations from concept to production.
+As the Founder and Head of Team Adwaitha, I direct development teams, design system architectures, and coordinate research for technical projects.
 
 ---
 
-## Technical Stack & Tools
+## Developer Notice: Contribution Activity
 
-### Frontend Development
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+Because my primary engineering work involves proprietary systems and intellectual property currently undergoing patent evaluation, my source repositories are set to private. 
+
+To view my active development cadence, please ensure that you have enabled **Show private contributions** in your GitHub settings. This will display my daily commit history and development velocity.
+
+---
+
+## Technical Stack & Competencies
+
+### Languages & Core Engineering
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-### Backend & Databases
+### Frameworks & Libraries
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+![TanStack](https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=tanstack&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+### Data Systems & Infrastructure
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-
-### AI & Automation
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-FF6C37?style=flat-square&logo=n8n&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 
 ---
 
-## Featured Work
+## Architecture Design: Full-Stack Secure Operating System
 
-### MediConnect — Healthcare Operating System
-A complete, production-ready healthcare management platform designed for patients, doctors, and administrators to streamline care coordination.
-* Frontend: React 19, TypeScript, Tailwind CSS 4, TanStack Router
-* Backend & Server: TanStack Start (SSR), Vite 7, Nitro
-* Database: Supabase PostgreSQL, Row Level Security (RLS) policies, Supabase Auth
-* Key System Integrations: Groq API (Llama 3.3) for a multilingual AI receptionist assisting with symptom triage and scheduling
-* Monitoring & Quality: Sentry client-side error tracking and auth headers attacher for server functions
+Below is the design pattern implemented for MediConnect, representing a secure, role-based database architecture and AI-assisted triage pipeline.
 
-### Hospital Management System with AI
-An intelligent clinical operations platform designed to automate patient intake, doctor scheduling, and diagnostics support.
-* Core Components: Interactive doctor scheduling calendars, automated booking confirmations, and patient queues
-* AI Implementation: Diagnostic assistants and symptom sorting algorithms
-* Tech Stack: React, JavaScript, Supabase, NVIDIA API
-* Repository: [Hospital_Management_System_With_AI](https://github.com/naagasumukh8/Hospital_Management_System_With_AI)
+```mermaid
+graph TD
+    subgraph Client Tier [Client Tier - React & TypeScript]
+        PatientClient[Patient Dashboard]
+        DoctorClient[Doctor Dashboard]
+        AdminClient[Admin Portal]
+    end
 
-### Job Verify FYP
-A secure professional credential and employment history verification platform built for final year project requirements.
-* Key Features: Automated verification request pipelines, secure certification uploads, and detailed verifier logs
-* Tech Stack: JavaScript, Node.js, Express, PostgreSQL
-* Repository: [Job_Verify_FYP](https://github.com/naagasumukh8/Job_Verify_FYP)
+    subgraph Security Layer [Security & Access Control]
+        Auth[Supabase Auth / JWT]
+        RLS[Row Level Security / RLS Policies]
+    end
+
+    subgraph Application Server [Application Server - TanStack Start SSR]
+        ServerFuncs[Server Functions & API Handlers]
+        SentryLogs[Sentry Error Tracking]
+    end
+
+    subgraph Data & Integration Services [Data & Integrations]
+        Postgres[(Supabase PostgreSQL)]
+        Storage[Supabase Object Storage]
+        GroqAPI[Groq API - Llama 3.3 Triage]
+        Automation[n8n Webhook Queues]
+    end
+
+    PatientClient --> Auth
+    DoctorClient --> Auth
+    AdminClient --> Auth
+    
+    Auth --> RLS
+    RLS --> ServerFuncs
+    ServerFuncs --> SentryLogs
+    
+    ServerFuncs --> Postgres
+    ServerFuncs --> Storage
+    ServerFuncs --> GroqAPI
+    ServerFuncs --> Automation
+```
 
 ---
 
-## Leadership & Experience
+## Research & Intellectual Property Focus
 
-### Founder & Head | Team Adwaitha
-* Establish technical goals and design architectures for student-led software projects.
-* Lead development workflows, assign project tasks, and conduct system code reviews.
-* Manage coordination across multidisciplinary teams for academic projects and submissions.
+### Healthcare System Workflow Automation
+* Focus: Optimizing patient scheduling loops, preventing reservation race conditions, and executing secure, role-based digital consultations.
+* Application: MediConnect Care Systems.
 
-### Content Creator | AI & Productivity
-* Design tutorials and guides to introduce modern AI utilities and productivity automation tools.
-* Develop automated data processing workflows using Python and CLI automation scripts.
+### Credential Integrity Verification
+* Focus: Design of tamper-proof verification pipelines for career credentials and employment records.
+* Application: Job Verify Framework.
+
+### System Safety and Sanitization
+* Focus: Prevention of injection attacks in conversational AI systems and securing server-side endpoints from telemetry leaks.
+* Application: AI Triage Integrations.
+
+---
+
+## Engineering Standards
+
+| Standard | Implementation | Outcome |
+| --- | --- | --- |
+| Type Safety | Strict TypeScript compilation and database schemas. | Eliminate runtime model mismatches. |
+| Data Isolation | Row Level Security (RLS) checked via Supabase tokens. | Strict tenant and user data privacy. |
+| Diagnostics | SSR-safe telemetry capturing and Sentry logging. | Real-time production issue tracking. |
+| Asynchronous Execution | Create-before-cancel order scheduling patterns. | Avoid server-side race conditions. |
 
 ---
 
 ## Education
-* Degree: Bachelor of Engineering (B.E.) in Information Science and Engineering (ISE)
-* Institution: Nitte Meenakshi Institute of Technology (NMIT), Bangalore
-* Key Subjects: Data Structures and Algorithms, Database Management Systems, Machine Learning, Software Architecture
+* B.E. in Information Science and Engineering (ISE)
+* Nitte Meenakshi Institute of Technology (NMIT), Bangalore
+* Research Focus: Applied Machine Learning, Secure Software Architecture, Distributed Database Systems
 
 ---
 
-## Get in Touch
+## Professional Networks
 * LinkedIn: [linkedin.com/in/naagasumukh](https://linkedin.com/in/naagasumukh)
 * GitHub: [github.com/naagasumukh8](https://github.com/naagasumukh8)
 * Email: [1nt23is136.naaga@nmit.ac.in](mailto:1nt23is136.naaga@nmit.ac.in)
