@@ -1,6 +1,6 @@
 # Naaga Sumukh B S
 
-Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I specialize in machine learning model development, natural language processing pipelines, data analytics, and browser-extension automated workflows.
+Information Science and Engineering undergraduate at Nitte Meenakshi Institute of Technology (NMIT), Bengaluru (2023-2027). I focus on machine learning model development, natural language processing pipelines, data analytics, and browser-extension automated workflows.
 
 As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, manage end-to-end event execution, and organize welfare and technology outreach programs.
 
@@ -31,11 +31,18 @@ As the Founder and Head of the Adwaitha Club at NMIT, I lead student teams, mana
 
 ## Core Projects
 
+### Intelligent Job Fraud Detection Platform (Final Year Project)
+An AI-powered verification system designed to protect job seekers from fake job advertisements and recruitment scams by combining NLP text analysis with multi-stage verification workflows.
+* NLP & Machine Learning: Preprocesses descriptions via spaCy and classifies text using Scikit-Learn (TF-IDF & Random Forest) to detect fraudulent patterns.
+* Multi-Stage Verification: Performs automated domain validation (WHOIS registration dates, SSL status), recruiter email verification, company website authenticity checks, and location checks.
+* Decision Scoring: Automatically extracts data from natural language postings to output structured jobs, a fraud risk score, and final verdicts (`Likely Genuine`, `Suspicious`, or `High Scam Risk`).
+* Repository: [Job_Verify_FYP](https://github.com/naagasumukh8/Job_Verify_FYP)
+
 ### MediConnect — Healthcare Operating System (HealthcareOS)
 A full-stack Healthcare Operating System (HealthcareOS) designed to streamline healthcare delivery for hospitals, clinics, medical groups, doctors, and patients. It goes beyond traditional appointment booking by enabling end-to-end continuity of care.
 * Features: Supports multi-hospital management, role-based access for patients, doctors, hospital administrators, and super admins, secure appointment scheduling with doctor approval workflows, digital prescriptions, patient health records, inter-department referrals, pharmacy inventory management, and AI-assisted patient support.
 * Advanced Capabilities: Post-consultation care workflows, automated follow-up management, patient timelines, shared medical memory for doctors, family account management, Google Calendar-based availability planning, event-driven automation architecture, and secure file storage for prescriptions and medical reports.
-* Security & Quality: Production-ready security enforced through Supabase Row Level Security (RLS), comprehensive testing with Playwright, TypeScript validation, and role-based authorization, creating a scalable platform that reduces administrative workload and enhances long-term healthcare outcomes.
+* Security & Quality: Production-ready security enforced through Supabase Row Level Security (RLS), comprehensive testing with Playwright, TypeScript validation, and role-based authorization.
 * Repository: [mediconnect-care](https://github.com/naagasumukh8/mediconnect-care) (Private repository / Local workspace development)
 
 ### Sacchi AI — Interview Integrity & AI-Assistance Detection Platform
@@ -45,12 +52,6 @@ An AI-powered platform to detect unauthorized AI assistance during online interv
 * Reporting: Generates detailed recruiter-facing reports with genuineness scores, suspicious activity indicators, plagiarism analysis, and interview insights.
 * Tech Stack: JavaScript, TypeScript, React, Chrome Extension APIs, Python, Scikit-learn, Machine Learning, Node.js, REST APIs.
 * Repository: [audio-transcription-plagiarism-checker](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker) (Private repository for patent evaluation)
-
-### Automated Fake Job Advertisement Detection (Final Year Project)
-A machine learning fraud detection system designed to classify and identify fraudulent job postings.
-* Methodologies: Natural Language Processing (NLP) text preprocessing, tokenization, and vectorization
-* Machine Learning: Binary classification models evaluated on accuracy, precision, recall, and F1-score
-* Repository: [Job_Verify_FYP](https://github.com/naagasumukh8/Job_Verify_FYP)
 
 ---
 

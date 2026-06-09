@@ -1,79 +1,88 @@
-# Job Verify FYP
+# Intelligent Job Fraud Detection Platform
 
-A professional credential and employment verification platform designed as a Final Year Project (FYP). It automates and secures the process of verifying candidate qualifications, employment histories, and academic credentials.
+A multi-stage job verification and fraud detection system designed to protect job seekers from fake job advertisements and recruitment scams. The platform uses natural language processing (NLP) and machine learning to analyze job posts, while simultaneously performing verification checks on the job provider's digital and physical presence.
+
+---
+
+## Architecture Overview
+
+The platform uses a hybrid architecture combining a Python machine learning core with a web-based dashboard:
+* **Machine Learning & NLP Core (Python)**: Handles text analysis, feature extraction, web scraping, and domain authentication checks.
+* **Dashboard & Portal Interface (JavaScript)**: Manages candidate inputs, displays verification reports, and presents explainable risk scores.
 
 ---
 
 ## Core Features
 
-### Employment Verification Workflow
-* Automated verification request queues submitted by candidates or employers.
-* Verifier portal for reviewing evidence, contacting references, and updating verification status.
-* Status tracking indicators for pending, verified, and flagged applications.
+### 1. Fake Job Detection (NLP & Machine Learning)
+* Preprocesses natural language job descriptions using spaCy (tokenization, lemmatization, stopword removal).
+* Converts text features into numerical vectors using Term Frequency-Inverse Document Frequency (TF-IDF).
+* Classifies advertisements using a Random Forest ensemble model to detect fraudulent patterns.
 
-### Secure Credential Repository
-* Document upload pipeline for certificates, transcripts, and proof of employment.
-* Integrity verification to ensure uploaded files have not been modified post-submission.
-* Encryption and role-based access control (RBAC) protecting sensitive files.
+### 2. Multi-Stage Recruiter Verification
+Unlike standard text classifiers, this platform executes secondary validations on the job provider:
+* **Email & Domain Audit**: Validates email formats and queries domain authenticity using WHOIS records to check registration dates and domain age.
+* **Company Legitimacy Checks**: Cross-references company websites, checks for active SSL certificates, and reviews online presence.
+* **Location Audits**: Matches declared office locations against mapping and location intelligence resources.
 
-### Multi-Role Dashboards
-* Candidates: Submit verification profiles, upload documents, and track verification stages.
-* Employers: Request checks for prospective hires and view verified candidate credentials.
-* Administrators: Manage system settings, review flagged requests, and audit verification actions.
+### 3. Explainable Risk Scoring
+* Generates a numerical fraud risk score.
+* Produces a final verdict categorization: `Likely Genuine`, `Suspicious`, or `High Scam Risk`.
+* Outlines the specific indicators (e.g., mismatched domain, high-risk text features) that triggered the verdict.
+
+### 4. Automated Job Verification Reports
+* Compiles text analysis and domain verification results into a single, clean report for job seekers.
+* Structures raw unstructured job posting texts into standardized fields (Title, Company, Salary, Requirements).
+
+### 5. Future Roadmap
+* Integration with India's MCA21 (Ministry of Corporate Affairs) database for automated company registration verification.
+* Development of crowdsourced scam intelligence feeds to flag recurring scam patterns in real-time.
 
 ---
 
 ## Tech Stack
 
-* Frontend: JavaScript, HTML5, CSS3
-* Backend: Node.js, Express, REST APIs
-* Database: PostgreSQL / MongoDB
-* Version Control: Git, GitHub
+* **Machine Learning & NLP (Python)**: Scikit-Learn, spaCy, Pandas, NumPy, TF-IDF, Random Forest
+* **Web Scraping & APIs**: BeautifulSoup, Requests, WHOIS API, Web scraping APIs
+* **Web Interface & Server**: JavaScript, Node.js, HTML5, CSS3
+* **Environments**: Google Colab (Model calibration), Local IDE
 
 ---
 
-## Getting Started
+## Installation & Setup
 
 ### Prerequisites
+* Python 3.9 or higher
 * Node.js (v18 or higher)
-* npm (v9 or higher)
-* Database server (PostgreSQL or MongoDB)
+* Active WHOIS API credential
 
-### Installation
-1. Clone the repository:
+### Model & Scraper Backend Setup (Python)
+1. Navigate to the core directory:
    ```bash
-   git clone https://github.com/naagasumukh8/Job_Verify_FYP.git
-   cd Job_Verify_FYP
+   cd core
+   ```
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install pandas numpy scikit-learn spacy beautifulsoup4 requests python-dotenv
+   python -m spacy download en_core_web_sm
    ```
 
-2. Install the backend and frontend dependencies:
+### Web Portal Setup (Node.js/JavaScript)
+1. Navigate to the root directory:
    ```bash
    npm install
    ```
-
-3. Configure environment settings by creating a `.env` file in the root directory:
-   ```env
-   PORT=5000
-   DATABASE_URL=your-database-connection-string
-   JWT_SECRET=your-json-web-token-secret
-   ```
-
-4. Start the application:
+2. Start the development portal:
    ```bash
    npm start
    ```
 
 ---
 
-## Architecture Flow
-
-1. Candidate uploads certificates and inputs previous job roles.
-2. Employer initiates a check request.
-3. System triggers verification tasks for administrative verifiers.
-4. Verifier completes checks, and the status changes to "Verified."
-5. Audit logs record all transitions for security tracking.
-
----
-
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for details.

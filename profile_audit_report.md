@@ -46,10 +46,10 @@ This report presents a thorough audit of your GitHub presence and provides brand
 ### Specific Repository Improvements
 
 #### Job Verify FYP (Final Year Project)
-* Description Improvement: "A professional credential and employment history verification platform."
-* Topics/Tags: `javascript`, `nodejs`, `verification-system`, `final-year-project`, `rest-api`.
+* Description Improvement: "An AI-powered verification system designed to protect job seekers from fake job advertisements and recruitment scams by combining NLP text analysis with multi-stage verification workflows."
+* Topics/Tags: `python`, `scikit-learn`, `spacy`, `nlp`, `web-scraping`, `domain-verification`, `final-year-project`.
 * Badge Recommendation: Add Shields.io build status and license badges.
-* Documentation Recommendation: Incorporate data structure schemas and verifier role guidelines.
+* Documentation Recommendation: Incorporate data structure schemas, domain evaluation steps, and uvicorn backend setup.
 
 #### Sacchi AI (audio-transcription-plagiarism-checker)
 * Description Improvement: "An AI-powered platform to detect unauthorized AI assistance during online interviews through real-time and post-session analysis. Includes Chrome and Google Meet extensions."
@@ -68,9 +68,9 @@ This report presents a thorough audit of your GitHub presence and provides brand
 ## 4. Portfolio Optimization Strategy
 
 ### Repositories to Pin
-1. **mediconnect-care**: Highlights your full-stack engineering, secure RLS design, and test integration.
-2. **audio-transcription-plagiarism-checker** (Sacchi AI): Highlights your speech-to-text integration, Sklearn model, and browser/Google Meet extensions.
-3. **Automated_Fake_Job_Advertisement_Detection** (Job_Verify_FYP): Showcases your Final Year Project (ML/NLP classification).
+1. **Job_Verify_FYP**: Showcases your Final Year Project (Intelligent Job Fraud Detection Platform).
+2. **mediconnect-care**: Highlights your full-stack engineering, secure RLS design, and test integration.
+3. **audio-transcription-plagiarism-checker** (Sacchi AI): Highlights your speech-to-text integration, Sklearn model, and browser/Google Meet extensions.
 
 ### Repositories to Improve
 * **Job_Verify_FYP**: Keep it clean and structured. Add database validation rules and server startup guides.
