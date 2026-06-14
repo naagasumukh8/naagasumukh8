@@ -1,18 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=NAAGA%20SUMUKH%20B%20S&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ISE%20Undergrad%20%C2%B7%20Full%E2%80%91Stack%20Engineer%20%C2%B7%20AI%20%26%20ML%20Builder%20%C2%B7%20Community%20Leader&descAlignY=60&descSize=16&descColor=a78bfa" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=160&section=header&animation=fadeIn" width="100%"/>
 
-</div>
+# NAAGA SUMUKH B S
 
-<div align="center">
+<img src="profile.jpg" width="160" style="border-radius: 50%; border: 4px solid #a78bfa;" alt="Naaga Sumukh B S"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=720&lines=Information+Science+%40+NMIT+Bengaluru+%F0%9F%8E%93;Full-Stack+Engineer+building+real+systems+%F0%9F%9A%80;AI+%2B+ML+%2B+NLP+%E2%80%94+Applied+to+Real+Problems+%F0%9F%A7%A0;MediConnect+%C2%B7+SachhAI+%C2%B7+Job+Fraud+Detection+%F0%9F%94%8D;3000%2B+LinkedIn+followers+%C2%B7+Community+Leader+%40+NMIT+%F0%9F%8C%8D)](https://git.io/typing-svg)
+<br/>
 
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=720&lines=Information+Science+%40+NMIT+Bengaluru;Full-Stack+Engineer+%7C+AI+%26+ML+Builder;MediConnect+%7C+SachhAI+%7C+Job+Fraud+Detection;Community+Leader+%7C+3%2C000%2B+LinkedIn+Followers)](https://git.io/typing-svg)
 
----
-
-<div align="center">
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/naaga-sumukh-bs)
 [![Gmail](https://img.shields.io/badge/Gmail-naagasumukh1%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naagasumukh1@gmail.com)
@@ -23,20 +21,20 @@
 
 ---
 
-## 👋 Who Am I?
+## Who Am I?
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   🎓  Final-year ISE undergraduate @ NMIT, Bengaluru   (Graduating 2027)    ║
-║   💻  Full-Stack Engineer — builds real, production-grade systems            ║
-║   🧠  AI / ML / NLP enthusiast — applied to actual human problems           ║
-║   🏥  Building MediConnect — AI Healthcare OS for India's 70,000 hospitals  ║
-║   🔬  Built SachhAI — Interview Integrity & AI-Detection Platform           ║
-║   🏛️  Head @ Adwaitha Club, NMIT — student community, tech & culture        ║
-║   📣  Tech educator with 3,000+ LinkedIn followers                           ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------------------+
+|                                                                              |
+|   Final-year ISE undergraduate @ NMIT, Bengaluru   (Graduating 2027)        |
+|   Full-Stack Engineer — builds real, production-grade systems                |
+|   Applied AI / ML / NLP — solving actual human problems                     |
+|   Building MediConnect — AI Healthcare OS for India's 70,000 hospitals      |
+|   Built SachhAI — Interview Integrity & AI-Detection Platform               |
+|   Head @ Adwaitha Club, NMIT — student community, tech & culture            |
+|   Tech educator with 3,000+ LinkedIn followers                              |
+|                                                                              |
++------------------------------------------------------------------------------+
 ```
 
 I'm not just a student who codes for assignments. I build systems that solve real problems at scale — then ship them. I study Information Science at NMIT, and in parallel I work on projects that are production-grade, not just portfolio pieces.
@@ -45,33 +43,33 @@ I'm not just a student who codes for assignments. I build systems that solve rea
 
 ---
 
-## 🎓 Academic Profile
+## Academic Profile
 
 | | |
 |:--|:--|
 | **Institution** | Nitte Meenakshi Institute of Technology (NMIT), Bengaluru |
 | **Degree** | B.E. — Information Science & Engineering |
-| **CGPA** | 7.95 / 10 *(on track, Batch 2023–2027)* |
+| **CGPA** | 7.95 / 10 *(Batch 2023–2027)* |
 | **Pre-University (PCM)** | 95% |
 | **CBSE Class X** | 91.2% |
-| **Currently** | 3rd Year · Building + Studying simultaneously |
+| **Currently** | 3rd Year — Building & Studying simultaneously |
 
 ---
 
-## 🚀 Projects I've Built
+## Projects
 
-### 🏥 MediConnect — AI-Powered Healthcare Operating System
+### MediConnect — AI-Powered Healthcare Operating System
 
 > The healthcare problem India doesn't talk about enough: **70 million+ elderly patients** who can't type a search query, can't register online, and can't navigate a hospital booking portal.
 
 **MediConnect solves this with AI voice agents — in 12 Indian languages.**
 
 ```
-🗣️  Patient calls a number
-🌐  AI agent asks: "ನಿಮ್ಮ ಭಾಷೆ ಯಾವುದು?" (Which language do you speak?)
-🤖  Human-like agent books doctor, manages prescriptions, stores health history
-📱  Zero login. Zero email. Zero smartphone needed.
-🏥  Doctor gets dashboard → Hospital gets admin panel → Everyone wins.
+Patient calls a number
+AI agent asks: which language do you speak?
+Human-like agent books doctor, manages prescriptions, stores health history
+Zero login. Zero email. Zero smartphone needed.
+Doctor gets dashboard. Hospital gets admin panel. Everyone wins.
 ```
 
 | Layer | Stack |
@@ -88,18 +86,18 @@ I'm not just a student who codes for assignments. I build systems that solve rea
 
 ---
 
-### 🕵️ SachhAI — Interview Authenticity & AI-Detection Platform
+### SachhAI — Interview Authenticity & AI-Detection Platform
 
 > Built to answer: *"Is this candidate's answer actually theirs — or is an AI whispering it to them?"*
 
 A browser-based, real-time interview integrity system. It captures audio from Google Meet, transcribes it, and runs **11-dimensional style-shift analysis** to detect AI-assisted responses.
 
 ```
-🎙️  Browser extension injects into Google Meet
-📊  Establishes natural speech baseline (casual response)
-🔬  Compares against formal technical responses across 11 style parameters
-🤖  ML model (Random Forest / Gradient Boosting) classifies authenticity
-📋  Generates recruiter report: score, flags, plagiarism analysis
+Browser extension injects into Google Meet
+Establishes natural speech baseline (casual response)
+Compares against formal technical responses across 11 style parameters
+ML model (Random Forest / Gradient Boosting) classifies authenticity
+Generates recruiter report: score, flags, plagiarism analysis
 ```
 
 | Parameter | What it Detects |
@@ -112,23 +110,23 @@ A browser-based, real-time interview integrity system. It captures audio from Go
 
 **Tech Stack:** Python · FastAPI · Scikit-Learn · Deepgram Nova-2 · Winston AI · Supabase · Chrome Extension APIs · JavaScript
 
-[![SachhAI](https://img.shields.io/badge/SachhAI-Private_(Patent_Evaluation)-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker)
+[![SachhAI](https://img.shields.io/badge/SachhAI-Private_(In_Evaluation)-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker)
 
 ---
 
-### 🔍 Intelligent Job Fraud Detection — Final Year Project
+### Intelligent Job Fraud Detection — Final Year Project
 
 > Protecting job seekers from fake job advertisements using NLP + Multi-Stage Verification.
 
-- **NLP Pipeline**: spaCy preprocessing → Scikit-Learn (TF-IDF + Random Forest) fraud classification
-- **Multi-Stage Verification**: WHOIS domain checks · SSL validation · Recruiter email verification · Location checks
-- **Output**: Structured job data + Fraud Risk Score + Final Verdict (`Likely Genuine` / `Suspicious` / `High Scam Risk`)
+- **NLP Pipeline:** spaCy preprocessing → Scikit-Learn (TF-IDF + Random Forest) fraud classification
+- **Multi-Stage Verification:** WHOIS domain checks · SSL validation · Recruiter email verification · Location checks
+- **Output:** Structured job data + Fraud Risk Score + Final Verdict (`Likely Genuine` / `Suspicious` / `High Scam Risk`)
 
 [![Job Verify FYP](https://img.shields.io/badge/Job_Verify_FYP-View_Repo-F59E0B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8/Job_Verify_FYP)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -140,7 +138,6 @@ A browser-based, real-time interview integrity system. It captures audio from Go
 [![HTML5](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![C](https://skillicons.dev/icons?i=c)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![SQL](https://skillicons.dev/icons?i=postgres)](https://www.postgresql.org/)
 
 ### Frontend & UI
 
@@ -163,7 +160,7 @@ A browser-based, real-time interview integrity system. It captures audio from Go
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 
-### DevOps, Tools & Cloud
+### DevOps & Tools
 
 [![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/)
@@ -175,7 +172,7 @@ A browser-based, real-time interview integrity system. It captures audio from Go
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -199,7 +196,7 @@ A browser-based, real-time interview integrity system. It captures audio from Go
 
 ---
 
-## 🐍 My Contributions — Eaten Alive
+## Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/naagasumukh8/naagasumukh8/output/github-snake-dark.svg" />
@@ -209,17 +206,17 @@ A browser-based, real-time interview integrity system. It captures audio from Go
 
 ---
 
-## 🏛️ Leadership & Community
+## Leadership & Community
 
 ### Head — Adwaitha Club, NMIT
 I lead **Adwaitha Club** at NMIT — a student-run community focused on technology, culture, and welfare.
 - Built club infrastructure and governance from the ground up
-- Organized and managed **end-to-end events** with 200+ student participation
+- Organized and managed end-to-end events with 200+ student participation
 - Coordinated cross-department student welfare and outreach programs
 - Drove team formation, schedules, logistics, and inter-club collaborations
 
 ### Tech Educator — LinkedIn (3,000+ Followers)
-- Publish practical content on **AI tools, career strategy, and tech trends**
+- Publish practical content on AI tools, career strategy, and tech trends
 - Run workshops on AI productivity and emerging tech stacks for students
 - Partner with **Rabbitt AI** for student community outreach and tech events
 
@@ -229,25 +226,25 @@ I lead **Adwaitha Club** at NMIT — a student-run community focused on technolo
 
 ---
 
-## 🎯 What I'm About
+## What I'm About
 
 <div align="center">
 
 | Principle | In Practice |
 |:---:|:---:|
-| `Ship fast, learn faster` | `MediConnect & SachhAI — idea → working product in weeks` |
+| `Ship fast, learn faster` | `MediConnect & SachhAI — idea to working product in weeks` |
 | `Design for the edge case` | `MediConnect handles patients who've never used the internet` |
 | `Security first, always` | `Supabase RLS + Row-level auth on every endpoint` |
-| `Real > theoretical` | `11-param ML model in SachhAI — not a toy project, a real system` |
-| `Community > code` | `Adwaitha Club · LinkedIn · Rabbitt AI · 3,000+ in my network` |
+| `Real over theoretical` | `11-param ML model in SachhAI — not a toy, a real system` |
+| `Community matters` | `Adwaitha Club · LinkedIn · Rabbitt AI · 3,000+ in my network` |
 
 </div>
 
-> 🧠 **My unfair advantage:** I build for the 800 million Indians that tech usually skips — the ones who are not digital natives. Voice-first. Language-first. Human-first.
+> My unfair advantage: I build for the 800 million Indians that tech usually skips — the ones who are not digital natives. Voice-first. Language-first. Human-first.
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 <div align="center">
 
@@ -273,7 +270,7 @@ Open to: internships · research collaborations · open-source contributions
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=130&section=footer&animation=fadeIn" width="100%"/>
 
-**NAAGA SUMUKH B S** · ISE @ NMIT · Bengaluru 🇮🇳
+**NAAGA SUMUKH B S** · Information Science @ NMIT · Bengaluru, India
 
 *"Most problems exist because the right person hasn't been annoyed enough by them yet."*
 
