@@ -107,6 +107,12 @@ I build full-stack systems and applied AI solutions — from healthcare platform
 
 ## Contributions
 
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=naagasumukh8&theme=react-dark&hide_border=true&bg_color=0D1117&color=a78bfa&line=a78bfa&point=ffffff&area=true&area_color=a78bfa)](https://github.com/naagasumukh8)
+
+</div>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/naagasumukh8/naagasumukh8/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/naagasumukh8/naagasumukh8/output/github-snake.svg" />
