@@ -4,11 +4,11 @@
 
 # NAAGA SUMUKH B S
 
-<img src="profile.jpg" width="160" style="border-radius: 50%; border: 4px solid #a78bfa;" alt="Naaga Sumukh B S"/>
+<img src="profile.jpg" width="160" style="border-radius: 50%;" alt="Naaga Sumukh B S"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=720&lines=Information+Science+%40+NMIT+Bengaluru;Full-Stack+Engineer+%7C+AI+%26+ML+Builder;MediConnect+%7C+SachhAI+%7C+Job+Fraud+Detection;Community+Leader+%7C+3%2C000%2B+LinkedIn+Followers)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=720&lines=Information+Science+%40+NMIT+Bengaluru;Full-Stack+Engineer+%7C+AI+%26+ML+Builder;Community+Leader+%7C+3%2C000%2B+LinkedIn+Followers)](https://git.io/typing-svg)
 
 <br/>
 
@@ -21,7 +21,7 @@
 
 ---
 
-## Who Am I?
+## About Me
 
 ```
 +------------------------------------------------------------------------------+
@@ -29,15 +29,11 @@
 |   Final-year ISE undergraduate @ NMIT, Bengaluru   (Graduating 2027)        |
 |   Full-Stack Engineer — builds real, production-grade systems                |
 |   Applied AI / ML / NLP — solving actual human problems                     |
-|   Building MediConnect — AI Healthcare OS for India's 70,000 hospitals      |
-|   Built SachhAI — Interview Integrity & AI-Detection Platform               |
 |   Head @ Adwaitha Club, NMIT — student community, tech & culture            |
 |   Tech educator with 3,000+ LinkedIn followers                              |
 |                                                                              |
 +------------------------------------------------------------------------------+
 ```
-
-I'm not just a student who codes for assignments. I build systems that solve real problems at scale — then ship them. I study Information Science at NMIT, and in parallel I work on projects that are production-grade, not just portfolio pieces.
 
 > *"Most people code for marks. I code to ship."*
 
@@ -52,77 +48,14 @@ I'm not just a student who codes for assignments. I build systems that solve rea
 | **CGPA** | 7.95 / 10 *(Batch 2023–2027)* |
 | **Pre-University (PCM)** | 95% |
 | **CBSE Class X** | 91.2% |
-| **Currently** | 3rd Year — Building & Studying simultaneously |
 
 ---
 
-## Projects
+## What I Work On
 
-### MediConnect — AI-Powered Healthcare Operating System
+I build full-stack systems and applied AI solutions — from healthcare platforms to integrity-detection tools to fraud analysis pipelines. Most of my work is under active development or private for IP reasons.
 
-> The healthcare problem India doesn't talk about enough: **70 million+ elderly patients** who can't type a search query, can't register online, and can't navigate a hospital booking portal.
-
-**MediConnect solves this with AI voice agents — in 12 Indian languages.**
-
-```
-Patient calls a number
-AI agent asks: which language do you speak?
-Human-like agent books doctor, manages prescriptions, stores health history
-Zero login. Zero email. Zero smartphone needed.
-Doctor gets dashboard. Hospital gets admin panel. Everyone wins.
-```
-
-| Layer | Stack |
-|:------|:------|
-| Frontend | React 19, TypeScript, TailwindCSS 4, TanStack Router |
-| Backend | TanStack Start (SSR), Vite 7, Nitro |
-| Database | Supabase (PostgreSQL + RLS + Auth + Storage) |
-| AI | Groq `llama-3.3-70b` + NVIDIA endpoints |
-| Infra | Vercel · Cloudflare CDN + WAF |
-| Monitoring | Sentry · Playwright E2E |
-
-[![MediConnect](https://img.shields.io/badge/MediConnect-mediconnect.care-00D4AA?style=for-the-badge&logo=vercel&logoColor=white)](https://mediconnect.care)
-[![Source](https://img.shields.io/badge/Source-Private_(In_Dev)-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8/mediconnect-care)
-
----
-
-### SachhAI — Interview Authenticity & AI-Detection Platform
-
-> Built to answer: *"Is this candidate's answer actually theirs — or is an AI whispering it to them?"*
-
-A browser-based, real-time interview integrity system. It captures audio from Google Meet, transcribes it, and runs **11-dimensional style-shift analysis** to detect AI-assisted responses.
-
-```
-Browser extension injects into Google Meet
-Establishes natural speech baseline (casual response)
-Compares against formal technical responses across 11 style parameters
-ML model (Random Forest / Gradient Boosting) classifies authenticity
-Generates recruiter report: score, flags, plagiarism analysis
-```
-
-| Parameter | What it Detects |
-|:----------|:---------------|
-| Vocabulary Complexity | Sudden jump in word sophistication |
-| Formality Score | Unnatural shift from casual to formal |
-| Hedging Density | AI signature phrases ("it is worth noting...") |
-| Sentence Burstiness | Inhuman consistency in sentence lengths |
-| Filler Ratio | Absence of natural human disfluency |
-
-**Tech Stack:** Python · FastAPI · Scikit-Learn · Deepgram Nova-2 · Winston AI · Supabase · Chrome Extension APIs · JavaScript
-
-[![SachhAI](https://img.shields.io/badge/SachhAI-Private_(In_Evaluation)-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8/audio-transcription-plagiarism-checker)
-
----
-
-### Intelligent Job Fraud Detection — Final Year Project
-
-> Protecting job seekers from fake job advertisements using NLP + Multi-Stage Verification.
-
-- **NLP Pipeline:** spaCy preprocessing → Scikit-Learn (TF-IDF + Random Forest) fraud classification
-- **Multi-Stage Verification:** WHOIS domain checks · SSL validation · Recruiter email verification · Location checks
-- **Output:** Structured job data + Fraud Risk Score + Final Verdict (`Likely Genuine` / `Suspicious` / `High Scam Risk`)
-
-[![Job Verify FYP](https://img.shields.io/badge/Job_Verify_FYP-View_Repo-F59E0B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8/Job_Verify_FYP)
+> Work in progress. Watch this space.
 
 ---
 
@@ -145,7 +78,7 @@ Generates recruiter report: score, flags, plagiarism analysis
 [![TailwindCSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
 [![Vite](https://skillicons.dev/icons?i=vite)](https://vitejs.dev/)
 
-### Backend, Database & AI
+### Backend & Database
 
 [![Supabase](https://skillicons.dev/icons?i=supabase)](https://supabase.com/)
 [![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://www.postgresql.org/)
@@ -172,30 +105,6 @@ Generates recruiter report: score, flags, plagiarism analysis
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=naagasumukh8&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff" alt="GitHub Stats"/>
-&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=naagasumukh8&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a78bfa&text_color=ffffff" alt="Top Languages"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=naagasumukh8&theme=midnight-purple&hide_border=true&background=0D1117&ring=a78bfa&fire=FF6B6B&currStreakLabel=a78bfa)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
-
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=naagasumukh8&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## Contributions
 
 <picture>
@@ -211,8 +120,8 @@ Generates recruiter report: score, flags, plagiarism analysis
 ### Head — Adwaitha Club, NMIT
 I lead **Adwaitha Club** at NMIT — a student-run community focused on technology, culture, and welfare.
 - Built club infrastructure and governance from the ground up
-- Organized and managed end-to-end events with 200+ student participation
-- Coordinated cross-department student welfare and outreach programs
+- Organized end-to-end events with 200+ student participation
+- Coordinated cross-department welfare and outreach programs
 - Drove team formation, schedules, logistics, and inter-club collaborations
 
 ### Tech Educator — LinkedIn (3,000+ Followers)
@@ -223,24 +132,6 @@ I lead **Adwaitha Club** at NMIT — a student-run community focused on technolo
 ### Digital Marketing Intern — LinkedInForHER
 - Designed and executed AI-assisted content strategies
 - Analyzed audience engagement data to optimize content delivery
-
----
-
-## What I'm About
-
-<div align="center">
-
-| Principle | In Practice |
-|:---:|:---:|
-| `Ship fast, learn faster` | `MediConnect & SachhAI — idea to working product in weeks` |
-| `Design for the edge case` | `MediConnect handles patients who've never used the internet` |
-| `Security first, always` | `Supabase RLS + Row-level auth on every endpoint` |
-| `Real over theoretical` | `11-param ML model in SachhAI — not a toy, a real system` |
-| `Community matters` | `Adwaitha Club · LinkedIn · Rabbitt AI · 3,000+ in my network` |
-
-</div>
-
-> My unfair advantage: I build for the 800 million Indians that tech usually skips — the ones who are not digital natives. Voice-first. Language-first. Human-first.
 
 ---
 
