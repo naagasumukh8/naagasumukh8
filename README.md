@@ -177,7 +177,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=130&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=130&section=footer&text=Thanks%20for%20Visiting!&fontSize=25&fontColor=ffffff&fontAlignY=60&animation=fadeIn" width="100%"/>
 
 **NAAGA SUMUKH B S** · Information Science @ NMIT · Bengaluru, India
 
