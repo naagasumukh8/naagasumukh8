@@ -16,6 +16,9 @@ jobs:
       contents: write
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,6 +26,9 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Modify SVG to make contributions appear one by one
+        run: python modify-svg.py
 
       - name: Push output to output branch
         uses: crazy-max/ghaction-github-pages@v3

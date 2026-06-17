@@ -2,8 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=NAAGA%20SUMUKH%20B%20S&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=ISE%20Undergrad%20%40%20NMIT%20%7C%20Full-Stack%20Engineer%20%7C%20AI%20and%20ML%20Builder%20%7C%20Community%20Leader&descSize=15&descAlignY=58&descColor=c4b5fd" width="100%"/>
 
-
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=720&lines=Information+Science+%40+NMIT+Bengaluru;Full-Stack+Engineer+%7C+AI+%26+ML+Builder;Community+Leader+%7C+3%2C000%2B+LinkedIn+Followers)](https://git.io/typing-svg)
 
 <br/>
@@ -17,45 +15,61 @@
 
 ---
 
-## About Me
+## 🚀 About Me
 
-```
-+------------------------------------------------------------------------------+
-|                                                                              |
-|   Final-year ISE undergraduate @ NMIT, Bengaluru   (Graduating 2027)        |
-|   Full-Stack Engineer — builds real, production-grade systems                |
-|   Applied AI / ML / NLP — solving actual human problems                     |
-|   Head @ Adwaitha Club, NMIT — student community, tech & culture            |
-|   Tech educator with 3,000+ LinkedIn followers                              |
-|                                                                              |
-+------------------------------------------------------------------------------+
-```
+> **"Most people code for marks. I code to ship."**
+> 
+> I am a final-year Information Science & Engineering student at NMIT, Bengaluru. As a full-stack engineer and applied machine learning developer, I design and build production-grade architectures that bridge secure backend APIs, cloud database systems, and intelligent trust-verification workflows.
 
-> *"Most people code for marks. I code to ship."*
-
----
-
-## Academic Profile
-
-| | |
-|:--|:--|
-| **Institution** | Nitte Meenakshi Institute of Technology (NMIT), Bengaluru |
-| **Degree** | B.E. — Information Science & Engineering |
-| **CGPA** | 7.95 / 10 *(Batch 2023–2027)* |
-| **Pre-University (PCM)** | 95% |
-| **CBSE Class X** | 91.2% |
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <h3>🎓 Education</h3>
+      <p><b>B.E. Information Science</b><br>Nitte Meenakshi Institute of Tech<br>CGPA: <b>7.95 / 10</b></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>💼 Leadership</h3>
+      <p><b>Head @ Adwaitha Club</b><br>Built club governance infrastructure<br>Led <b>200+ student events</b></p>
+    </td>
+    <td align="center" width="33%">
+      <h3>📢 Community</h3>
+      <p><b>Tech Educator</b><br><b>3,000+</b> LinkedIn Followers<br>Partnered with <b>Rabbitt AI</b></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## What I Work On
+## 🛠️ Currently Building
 
-I build full-stack systems and applied AI solutions — from healthcare platforms to integrity-detection tools to fraud analysis pipelines. Most of my work is under active development or private for IP reasons.
-
-> Work in progress. Watch this space.
+*   🎙️ **SachhAI**: A communication verification framework establishing confidence and session authenticity in active audio streams.
+*   🔍 **Job_Verify**: An intelligent platform auditing digital legitimacy, recruiter identity, and organization credibility.
+*   🏥 **MediConnect**: A high-efficiency healthcare operating system optimizing clinical scheduling and secure data interactions.
 
 ---
 
-## Tech Stack
+## 🏆 Featured Projects
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🛡️ Job_Verify_FYP</h4>
+      <p><b>Tech Stack:</b> Python, Node.js, PostgreSQL, Scikit-Learn</p>
+      <p>A multi-stage validation system verifying organization credentials, domain authenticity, and recruitment legitimacy to protect job seekers.</p>
+      <a href="https://github.com/naagasumukh8/Job_Verify_FYP"><b>View Project →</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏥 MediConnect</h4>
+      <p><b>Tech Stack:</b> React, TypeScript, Supabase, TailwindCSS</p>
+      <p>A secure, full-stack clinical operating platform designed to streamline administrative scheduling and doctor-patient service workflows.</p>
+      <a href="https://github.com/naagasumukh8/mediconnect-care"><b>View Project →</b></a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 💻 Tech Stack
 
 <div align="center">
 
@@ -101,7 +115,18 @@ I build full-stack systems and applied AI solutions — from healthcare platform
 
 ---
 
-## Contributions
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=naagasumukh8&show_icons=true&theme=tokyonight" height="195px" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=naagasumukh8&theme=tokyonight" height="195px" alt="GitHub Streak Stats" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=naagasumukh8&layout=compact&theme=tokyonight" height="165px" alt="Top Languages" />
+</div>
+
+---
+
+## 🐍 Contributions & Activity
 
 <div align="center">
 
@@ -117,27 +142,23 @@ I build full-stack systems and applied AI solutions — from healthcare platform
 
 ---
 
-## Leadership & Community
+## 🎯 2026 Roadmap
 
-### Head — Adwaitha Club, NMIT
-I lead **Adwaitha Club** at NMIT — a student-run community focused on technology, culture, and welfare.
-- Built club infrastructure and governance from the ground up
-- Organized end-to-end events with 200+ student participation
-- Coordinated cross-department welfare and outreach programs
-- Drove team formation, schedules, logistics, and inter-club collaborations
-
-### Tech Educator — LinkedIn (3,000+ Followers)
-- Publish practical content on AI tools, career strategy, and tech trends
-- Run workshops on AI productivity and emerging tech stacks for students
-- Partner with **Rabbitt AI** for student community outreach and tech events
-
-### Digital Marketing Intern — LinkedInForHER
-- Designed and executed AI-assisted content strategies
-- Analyzed audience engagement data to optimize content delivery
+*   🔬 **Academic Research**: Publish peer-reviewed studies on applied AI/ML trust systems and verification architectures.
+*   🔓 **Open Source**: Actively contribute to upstream security, identity, and machine learning modules.
+*   💼 **Industry Impact**: Secure a product-focused ML/Software Engineering internship to build at scale.
 
 ---
 
-## Let's Connect
+## 💡 Did You Know?
+
+*   🚀 I scaled my first student-led technical community event at age 19, managing cross-functional logistics and team operations.
+*   🧠 I have mentored and guided 500+ students on applied AI tooling and modern software stacks through active community workshops.
+*   🏥 I designed and deployed my first production-grade database integration to support real-world patient records for a local clinic.
+
+---
+
+## 🤝 Let's Connect
 
 <div align="center">
 
@@ -146,14 +167,9 @@ I lead **Adwaitha Club** at NMIT — a student-run community focused on technolo
 [![GitHub](https://img.shields.io/badge/GitHub-naagasumukh8-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/naagasumukh8)
 [![X](https://img.shields.io/badge/X_(Twitter)-naagasumukh8-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/naagasumukh8)
 
-</div>
+<br/>
 
-<div align="center">
-
-```
-Open to: internships · research collaborations · open-source contributions
-         hackathons · mentorship · student tech events
-```
+![Visitor Count](https://komarev.com/ghpvc/?username=naagasumukh8&color=a78bfa&style=flat-square&label=VISITORS)
 
 </div>
 
@@ -165,6 +181,6 @@ Open to: internships · research collaborations · open-source contributions
 
 **NAAGA SUMUKH B S** · Information Science @ NMIT · Bengaluru, India
 
-*"Most problems exist because the right person hasn't been annoyed enough by them yet."*
+*Last updated: June 2026*
 
 </div>
