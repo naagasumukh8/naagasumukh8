@@ -15,24 +15,24 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 > **"Most people code for marks. I code to ship."**
-> 
+>
 > I am a final-year Information Science & Engineering student at NMIT, Bengaluru. As a full-stack engineer and applied machine learning developer, I design and build production-grade architectures that bridge secure backend APIs, cloud database systems, and intelligent trust-verification workflows.
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="33%">
-      <h3>🎓 Education</h3>
+      <h3>Education</h3>
       <p><b>B.E. Information Science</b><br>Nitte Meenakshi Institute of Tech<br>CGPA: <b>7.95 / 10</b></p>
     </td>
     <td align="center" width="33%">
-      <h3>💼 Leadership</h3>
+      <h3>Leadership</h3>
       <p><b>Head @ Adwaitha Club</b><br>Built club governance infrastructure<br>Led <b>200+ student events</b></p>
     </td>
     <td align="center" width="33%">
-      <h3>📢 Community</h3>
+      <h3>Community</h3>
       <p><b>Tech Educator</b><br><b>3,000+</b> LinkedIn Followers<br>Partnered with <b>Rabbitt AI</b></p>
     </td>
   </tr>
@@ -40,26 +40,26 @@
 
 ---
 
-## 🛠️ Currently Building
+## Currently Building
 
-*   🎙️ **SachhAI**: A communication verification framework establishing confidence and session authenticity in active audio streams.
-*   🔍 **Job_Verify**: An intelligent platform auditing digital legitimacy, recruiter identity, and organization credibility.
-*   🏥 **MediConnect**: A high-efficiency healthcare operating system optimizing clinical scheduling and secure data interactions.
+*   **SachhAI** — A communication verification framework establishing confidence and session authenticity in active audio streams.
+*   **Job_Verify** — An intelligent platform auditing digital legitimacy, recruiter identity, and organization credibility.
+*   **MediConnect** — A high-efficiency healthcare operating system optimizing clinical scheduling and secure data interactions.
 
 ---
 
-## 🏆 Featured Projects
+## Featured Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>🛡️ Job_Verify_FYP</h4>
+      <h4>Job_Verify_FYP</h4>
       <p><b>Tech Stack:</b> Python, Node.js, PostgreSQL, Scikit-Learn</p>
       <p>A multi-stage validation system verifying organization credentials, domain authenticity, and recruitment legitimacy to protect job seekers.</p>
       <a href="https://github.com/naagasumukh8/Job_Verify_FYP"><b>View Project →</b></a>
     </td>
     <td width="50%" valign="top">
-      <h4>🏥 MediConnect</h4>
+      <h4>MediConnect</h4>
       <p><b>Tech Stack:</b> React, TypeScript, Supabase, TailwindCSS</p>
       <p>A secure, full-stack clinical operating platform designed to streamline administrative scheduling and doctor-patient service workflows.</p>
       <a href="https://github.com/naagasumukh8/mediconnect-care"><b>View Project →</b></a>
@@ -69,7 +69,7 @@
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -115,7 +115,7 @@
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=naagasumukh8&show_icons=true&theme=tokyonight" height="195px" alt="GitHub Stats" />
@@ -126,7 +126,7 @@
 
 ---
 
-## 🐍 Contributions & Activity
+## Contributions & Activity
 
 <div align="center">
 
@@ -142,23 +142,23 @@
 
 ---
 
-## 🎯 2026 Roadmap
+## 2026 Roadmap
 
-*   🔬 **Academic Research**: Publish peer-reviewed studies on applied AI/ML trust systems and verification architectures.
-*   🔓 **Open Source**: Actively contribute to upstream security, identity, and machine learning modules.
-*   💼 **Industry Impact**: Secure a product-focused ML/Software Engineering internship to build at scale.
-
----
-
-## 💡 Did You Know?
-
-*   🚀 I scaled my first student-led technical community event at age 19, managing cross-functional logistics and team operations.
-*   🧠 I have mentored and guided 500+ students on applied AI tooling and modern software stacks through active community workshops.
-*   🏥 I designed and deployed my first production-grade database integration to support real-world patient records for a local clinic.
+*   **Academic Research** — Publish peer-reviewed studies on applied AI/ML trust systems and verification architectures.
+*   **Open Source** — Actively contribute to upstream security, identity, and machine learning modules.
+*   **Industry Impact** — Secure a product-focused ML/Software Engineering internship to build at scale.
 
 ---
 
-## 🤝 Let's Connect
+## Did You Know?
+
+*   Scaled my first student-led technical community event at age 19, managing cross-functional logistics and team operations.
+*   Mentored 500+ students on applied AI tooling and modern software stacks through active community workshops.
+*   Designed and deployed my first production-grade database integration supporting real-world patient records for a local clinic.
+
+---
+
+## Connect
 
 <div align="center">
 
